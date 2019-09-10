@@ -5,10 +5,10 @@
 .DESCRIPTION
     ConvertTo-BitsPerSecond converts bytes per second to bits per second.
 .EXAMPLE
-    Converts 50 megabyte per second to kilobits per second.
-
     PS C:\> ConvertTo-BitsPerSecond -BytesPerSecond 50MB -Kbps
     409600
+
+    Converts 50 megabyte per second to kilobits per second.
 
 #>
 function ConvertTo-BitsPerSecond {
